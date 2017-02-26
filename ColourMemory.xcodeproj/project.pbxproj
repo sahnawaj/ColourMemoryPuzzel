@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B549F981E61439D00C25947 /* LList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B549F971E61439C00C25947 /* LList.m */; };
+		8BABCA571DE37F370001B211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA561DE37F370001B211 /* main.m */; };
+		8BABCA5A1DE37F370001B211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA591DE37F370001B211 /* AppDelegate.m */; };
+		8BABCA5D1DE37F370001B211 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA5C1DE37F370001B211 /* GameViewController.m */; };
+		8BABCA601DE37F370001B211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BABCA5E1DE37F370001B211 /* Main.storyboard */; };
+		8BABCA631DE37F370001B211 /* ColourMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA611DE37F370001B211 /* ColourMemory.xcdatamodeld */; };
+		8BABCA651DE37F370001B211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BABCA641DE37F370001B211 /* Assets.xcassets */; };
+		8BABCA681DE37F370001B211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BABCA661DE37F370001B211 /* LaunchScreen.storyboard */; };
+		8BABCA761DE56C8C0001B211 /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA751DE56C8C0001B211 /* CardCollectionViewCell.m */; };
+		8BABCA7C1DE5E80C0001B211 /* GameViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA7B1DE5E80C0001B211 /* GameViewControllerModel.m */; };
+		8BABCA801DE6284D0001B211 /* CoreDataStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA7F1DE6284C0001B211 /* CoreDataStackManager.m */; };
+		8BABCA831DE62E930001B211 /* GameScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA821DE62E930001B211 /* GameScore.m */; };
+		8BABCA851DE6AE750001B211 /* ColourMemory.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 8BABCA611DE37F370001B211 /* ColourMemory.xcdatamodeld */; };
+		8BABCA881DE6CCDF0001B211 /* GameScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA871DE6CCDF0001B211 /* GameScoreViewController.m */; };
+		8BABCA8B1DE6CEF70001B211 /* GameScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA8A1DE6CEF70001B211 /* GameScoreTableViewCell.m */; };
+		8BABCA8E1DE6D5C70001B211 /* GameScoreVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA8D1DE6D5C70001B211 /* GameScoreVCModel.m */; };
+		8BABCA901DE706590001B211 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 8BABCA8F1DE706590001B211 /* ReadMe.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B549F961E61439C00C25947 /* LList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LList.h; sourceTree = "<group>"; };
+		8B549F971E61439C00C25947 /* LList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LList.m; sourceTree = "<group>"; };
+		8BABCA521DE37F370001B211 /* ColourMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BABCA561DE37F370001B211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BABCA581DE37F370001B211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BABCA591DE37F370001B211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BABCA5B1DE37F370001B211 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		8BABCA5C1DE37F370001B211 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8BABCA5F1DE37F370001B211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BABCA621DE37F370001B211 /* ColourMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColourMemory.xcdatamodel; sourceTree = "<group>"; };
+		8BABCA641DE37F370001B211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BABCA671DE37F370001B211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BABCA691DE37F370001B211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BABCA741DE56C8C0001B211 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		8BABCA751DE56C8C0001B211 /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		8BABCA7A1DE5E80C0001B211 /* GameViewControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewControllerModel.h; sourceTree = "<group>"; };
+		8BABCA7B1DE5E80C0001B211 /* GameViewControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewControllerModel.m; sourceTree = "<group>"; };
+		8BABCA7D1DE606450001B211 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8BABCA7E1DE6284C0001B211 /* CoreDataStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStackManager.h; sourceTree = "<group>"; };
+		8BABCA7F1DE6284C0001B211 /* CoreDataStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStackManager.m; sourceTree = "<group>"; };
+		8BABCA811DE62E930001B211 /* GameScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScore.h; sourceTree = "<group>"; };
+		8BABCA821DE62E930001B211 /* GameScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScore.m; sourceTree = "<group>"; };
+		8BABCA861DE6CCDF0001B211 /* GameScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScoreViewController.h; sourceTree = "<group>"; };
+		8BABCA871DE6CCDF0001B211 /* GameScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScoreViewController.m; sourceTree = "<group>"; };
+		8BABCA891DE6CEF70001B211 /* GameScoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScoreTableViewCell.h; sourceTree = "<group>"; };
+		8BABCA8A1DE6CEF70001B211 /* GameScoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScoreTableViewCell.m; sourceTree = "<group>"; };
+		8BABCA8C1DE6D5C70001B211 /* GameScoreVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScoreVCModel.h; sourceTree = "<group>"; };
+		8BABCA8D1DE6D5C70001B211 /* GameScoreVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScoreVCModel.m; sourceTree = "<group>"; };
+		8BABCA8F1DE706590001B211 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BABCA4F1DE37F370001B211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BABCA491DE37F370001B211 = {
+			isa = PBXGroup;
+			children = (
+				8BABCA8F1DE706590001B211 /* ReadMe.md */,
+				8BABCA541DE37F370001B211 /* ColourMemory */,
+				8BABCA531DE37F370001B211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BABCA531DE37F370001B211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA521DE37F370001B211 /* ColourMemory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BABCA541DE37F370001B211 /* ColourMemory */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA791DE590150001B211 /* Model */,
+				8BABCA771DE58FAE0001B211 /* ViewControllers */,
+				8BABCA581DE37F370001B211 /* AppDelegate.h */,
+				8BABCA591DE37F370001B211 /* AppDelegate.m */,
+				8BABCA7E1DE6284C0001B211 /* CoreDataStackManager.h */,
+				8BABCA7F1DE6284C0001B211 /* CoreDataStackManager.m */,
+				8BABCA5E1DE37F370001B211 /* Main.storyboard */,
+				8BABCA641DE37F370001B211 /* Assets.xcassets */,
+				8BABCA661DE37F370001B211 /* LaunchScreen.storyboard */,
+				8BABCA691DE37F370001B211 /* Info.plist */,
+				8BABCA551DE37F370001B211 /* Supporting Files */,
+				8BABCA7D1DE606450001B211 /* Constants.h */,
+				8B549F961E61439C00C25947 /* LList.h */,
+				8B549F971E61439C00C25947 /* LList.m */,
+			);
+			path = ColourMemory;
+			sourceTree = "<group>";
+		};
+		8BABCA551DE37F370001B211 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA561DE37F370001B211 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BABCA771DE58FAE0001B211 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA5B1DE37F370001B211 /* GameViewController.h */,
+				8BABCA5C1DE37F370001B211 /* GameViewController.m */,
+				8BABCA861DE6CCDF0001B211 /* GameScoreViewController.h */,
+				8BABCA871DE6CCDF0001B211 /* GameScoreViewController.m */,
+				8BABCA781DE58FBC0001B211 /* ViewModels */,
+				8BABCA841DE63AAE0001B211 /* Views */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8BABCA781DE58FBC0001B211 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA7A1DE5E80C0001B211 /* GameViewControllerModel.h */,
+				8BABCA7B1DE5E80C0001B211 /* GameViewControllerModel.m */,
+				8BABCA8C1DE6D5C70001B211 /* GameScoreVCModel.h */,
+				8BABCA8D1DE6D5C70001B211 /* GameScoreVCModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		8BABCA791DE590150001B211 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA611DE37F370001B211 /* ColourMemory.xcdatamodeld */,
+				8BABCA811DE62E930001B211 /* GameScore.h */,
+				8BABCA821DE62E930001B211 /* GameScore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8BABCA841DE63AAE0001B211 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BABCA741DE56C8C0001B211 /* CardCollectionViewCell.h */,
+				8BABCA751DE56C8C0001B211 /* CardCollectionViewCell.m */,
+				8BABCA891DE6CEF70001B211 /* GameScoreTableViewCell.h */,
+				8BABCA8A1DE6CEF70001B211 /* GameScoreTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BABCA511DE37F370001B211 /* ColourMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BABCA6C1DE37F370001B211 /* Build configuration list for PBXNativeTarget "ColourMemory" */;
+			buildPhases = (
+				8BABCA4E1DE37F370001B211 /* Sources */,
+				8BABCA4F1DE37F370001B211 /* Frameworks */,
+				8BABCA501DE37F370001B211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColourMemory;
+			productName = ColourMemory;
+			productReference = 8BABCA521DE37F370001B211 /* ColourMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BABCA4A1DE37F370001B211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sahnawaj Biswas";
+				TargetAttributes = {
+					8BABCA511DE37F370001B211 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7REV29C292;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BABCA4D1DE37F370001B211 /* Build configuration list for PBXProject "ColourMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BABCA491DE37F370001B211;
+			productRefGroup = 8BABCA531DE37F370001B211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BABCA511DE37F370001B211 /* ColourMemory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BABCA501DE37F370001B211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BABCA851DE6AE750001B211 /* ColourMemory.xcdatamodeld in Resources */,
+				8BABCA681DE37F370001B211 /* LaunchScreen.storyboard in Resources */,
+				8BABCA651DE37F370001B211 /* Assets.xcassets in Resources */,
+				8BABCA601DE37F370001B211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BABCA4E1DE37F370001B211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BABCA761DE56C8C0001B211 /* CardCollectionViewCell.m in Sources */,
+				8B549F981E61439D00C25947 /* LList.m in Sources */,
+				8BABCA5D1DE37F370001B211 /* GameViewController.m in Sources */,
+				8BABCA901DE706590001B211 /* ReadMe.md in Sources */,
+				8BABCA8B1DE6CEF70001B211 /* GameScoreTableViewCell.m in Sources */,
+				8BABCA831DE62E930001B211 /* GameScore.m in Sources */,
+				8BABCA8E1DE6D5C70001B211 /* GameScoreVCModel.m in Sources */,
+				8BABCA5A1DE37F370001B211 /* AppDelegate.m in Sources */,
+				8BABCA631DE37F370001B211 /* ColourMemory.xcdatamodeld in Sources */,
+				8BABCA801DE6284D0001B211 /* CoreDataStackManager.m in Sources */,
+				8BABCA571DE37F370001B211 /* main.m in Sources */,
+				8BABCA7C1DE5E80C0001B211 /* GameViewControllerModel.m in Sources */,
+				8BABCA881DE6CCDF0001B211 /* GameScoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BABCA5E1DE37F370001B211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BABCA5F1DE37F370001B211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BABCA661DE37F370001B211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BABCA671DE37F370001B211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BABCA6A1DE37F370001B211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BABCA6B1DE37F370001B211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BABCA6D1DE37F370001B211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7REV29C292;
+				INFOPLIST_FILE = ColourMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.sah.ColourMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BABCA6E1DE37F370001B211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7REV29C292;
+				INFOPLIST_FILE = ColourMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.sah.ColourMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BABCA4D1DE37F370001B211 /* Build configuration list for PBXProject "ColourMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BABCA6A1DE37F370001B211 /* Debug */,
+				8BABCA6B1DE37F370001B211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BABCA6C1DE37F370001B211 /* Build configuration list for PBXNativeTarget "ColourMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BABCA6D1DE37F370001B211 /* Debug */,
+				8BABCA6E1DE37F370001B211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BABCA611DE37F370001B211 /* ColourMemory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BABCA621DE37F370001B211 /* ColourMemory.xcdatamodel */,
+			);
+			currentVersion = 8BABCA621DE37F370001B211 /* ColourMemory.xcdatamodel */;
+			path = ColourMemory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BABCA4A1DE37F370001B211 /* Project object */;
+}
